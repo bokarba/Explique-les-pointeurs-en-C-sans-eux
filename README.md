@@ -1,4 +1,3 @@
-Explique-les-pointeurs-en-C-sans-eux
+Explique-les-pointeurs-en-C
 ====================================
 
-un bout de code pour expliquer le problème
