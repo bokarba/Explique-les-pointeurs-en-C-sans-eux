@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+void maFonction(int maVariable);
+int main()
+{
+	int maVariable = 12;
+	printf("Valeur de maVariable : %d", maVariable);
+	maFonction(maVariable);
+	printf("\nValeur de maVariable apres le passage dans maFonction : %d\n\n", maVariable);
+	return 0;
+}
+void maFonction(int maVariable)
+{
+	maVariable = maVariable + 7;
+	printf("\nValeur de maVariable dans maFonction : %d", maVariable);
+}
